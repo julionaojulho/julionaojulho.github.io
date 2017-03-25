@@ -1056,7 +1056,7 @@ h6:hover .anchor-link {
 &lt;p&gt;Let's start with $f = 2$ Hz, twice per second.&lt;/p&gt;
 &lt;p&gt;The system's first-order transfer function would look like $$G(s) = \frac{1}{\tau s + 1}$$&lt;/p&gt;
 &lt;p&gt;a typical low-pass filter.&lt;/p&gt;
-&lt;p&gt;We can employ the submodule &lt;code&gt;scipy.signal&lt;/code&gt; to generate such disturbance, a square wave with frequency 10 Hz, as well as to evaluate the system's response.&lt;/p&gt;
+&lt;p&gt;We can employ the submodule &lt;code&gt;scipy.signal&lt;/code&gt; to generate such disturbance, a square wave with frequency 2 Hz, as well as to evaluate the system's response.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
