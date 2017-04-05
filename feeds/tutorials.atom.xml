@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Data 'n flow</title><link href="http://julionaojulho.github.io/" rel="alternate"></link><link href="http://julionaojulho.github.io/feeds/tutorials.atom.xml" rel="self"></link><id>http://julionaojulho.github.io/</id><updated>2017-04-05T20:00:00-03:00</updated><entry><title>Jupyter Notebook Tutorial</title><link href="http://julionaojulho.github.io/jupyter-notebook.html" rel="alternate"></link><published>2017-04-05T20:00:00-03:00</published><updated>2017-04-05T20:00:00-03:00</updated><author><name>Julio</name></author><id>tag:julionaojulho.github.io,2017-04-05:jupyter-notebook.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>flow'n data</title><link href="https://julionaojulho.github.io/" rel="alternate"></link><link href="https://julionaojulho.github.io/feeds/tutorials.atom.xml" rel="self"></link><id>https://julionaojulho.github.io/</id><updated>2017-04-05T20:00:00-03:00</updated><entry><title>Jupyter Notebook Tutorial</title><link href="https://julionaojulho.github.io/jupyter-tutorial.html" rel="alternate"></link><published>2017-04-05T20:00:00-03:00</published><updated>2017-04-05T20:00:00-03:00</updated><author><name>Julio</name></author><id>tag:julionaojulho.github.io,2017-04-05:jupyter-tutorial.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -3347,4 +3347,4 @@ echo $STRING&lt;/code&gt;&lt;/pre&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="python"></category><category term="tutorials"></category><category term="jupyter"></category><category term="notebooks"></category></entry></feed>
+</summary><category term="python"></category><category term="jupyter"></category><category term="notebooks"></category><category term="tutorials"></category></entry></feed>
