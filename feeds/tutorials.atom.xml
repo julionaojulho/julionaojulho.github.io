@@ -1,39 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Data 'n flow</title>
-        <link rel="stylesheet" href="http://julionaojulho.github.io/theme/css/main.css" />
-        <link href="http://julionaojulho.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Data 'n flow Atom Feed" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://julionaojulho.github.io/">Data 'n flow </a></h1>
-                <nav><ul>
-                    <li><a href="http://julionaojulho.github.io/category/posts.html">posts</a></li>
-                    <li><a href="http://julionaojulho.github.io/category/tutorials.html">Tutorials</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://julionaojulho.github.io/jupyter-notebook.html">Jupyter Notebook Tutorial</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2017-04-05T20:00:00-03:00">
-                Published: Qua 05 abril 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://julionaojulho.github.io/author/julio.html">Julio</a>
-        </address>
-<p>In <a href="http://julionaojulho.github.io/category/tutorials.html">Tutorials</a>.</p>
-<p>tags: <a href="http://julionaojulho.github.io/tag/python.html">python</a> <a href="http://julionaojulho.github.io/tag/tutorials.html">tutorials</a> <a href="http://julionaojulho.github.io/tag/jupyter.html">jupyter</a> <a href="http://julionaojulho.github.io/tag/notebooks.html">notebooks</a> </p>
-</footer><!-- /.post-info --><style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Data 'n flow</title><link href="http://julionaojulho.github.io/" rel="alternate"></link><link href="http://julionaojulho.github.io/feeds/tutorials.atom.xml" rel="self"></link><id>http://julionaojulho.github.io/</id><updated>2017-04-05T20:00:00-03:00</updated><entry><title>Jupyter Notebook Tutorial</title><link href="http://julionaojulho.github.io/jupyter-notebook.html" rel="alternate"></link><published>2017-04-05T20:00:00-03:00</published><updated>2017-04-05T20:00:00-03:00</updated><author><name>Julio</name></author><id>tag:julionaojulho.github.io,2017-04-05:jupyter-notebook.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -264,7 +230,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -317,19 +283,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -375,7 +341,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -837,7 +803,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -902,8 +868,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -971,8 +937,8 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1008,283 +974,283 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Jupyter-Notebook-Tutorial">Jupyter Notebook Tutorial<a class="anchor-link" href="#Jupyter-Notebook-Tutorial">¶</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>According to <a href="https://jupyter.org/">https://jupyter.org/</a></p>
-<blockquote><p>The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.</p>
-</blockquote>
-<p>Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go on (in real time) [review]</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Installing">Installing<a class="anchor-link" href="#Installing">¶</a></h1><p><in order to start using the jupyter notebook we first need to install the python language, what can be done either via the &lt;a href="https://www.python.org/downloads/">python source</a> or the <a href="https://www.continuum.io/downloads">anaconda distribution</a>.</p>
-<p>The anaconda distribution is a the leading python platform for data science, including the most used modules (<code>pandas</code>,<code>matplotlib</code>,<code>numpy</code>)></p>
-<p>Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.</p>
-<print screen="">
-<p>You can download the anaconda package for your desired OS in the following link: <a href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a> and then proceed with the installation.
-To launch the Jupyter Notebook server, either open a command line and type <code>jupyter notebook</code> or run the Jupyter application.</p>
-<image command="" line="">
-</image></print></div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Creating-a-notebook">Creating a notebook<a class="anchor-link" href="#Creating-a-notebook">¶</a></h1><p>Once you’ve started the notebook server, it will open the Notebook Dashboard in the system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory.</p>
-<p><img alt="Dashboard" src="https://image.ibb.co/mw68tv/dashboard.png" title="Dashboard" /></p>
-<p>In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel</p>
-<p><img alt="New notebook creation" src="https://image.ibb.co/gyQ1Dv/new_notebook.png" title="New notebook creation" /></p>
-<p>The notebook is organized by cells where you can write code or text</p>
-<p><img alt="Cell" src="https://image.ibb.co/nt3Gfa/cell.png" title="Cell" /></p>
-<p>After you write some code in the input cell <code>In [ ]</code>, you can execute it by pressing <code>Shift + Enter</code> or clicking the “Run cell” button in the toolbar; the output will be shown in the output cell <code>Out [ ]</code></p>
-<p><img alt="Cell code output" src="https://image.ibb.co/h7k40a/in_out.png" title="Cell code and its output" /></p>
-<p>There are other buttons on the toolbar, here’s a brief list of their functionalities<add icons="">:</add></p>
-<ul>
-<li>Save and Checkpoint</li>
-<li>Insert cell below</li>
-<li>Cut selected cells</li>
-<li>Copy selected cells</li>
-<li>Paste cells below</li>
-<li>Move selected cells up</li>
-<li>Move selected cells down</li>
-<li>Run cell, select below</li>
-<li>Interrupt kernel</li>
-<li>Restart the kernel</li>
-<li>Cell type selector</li>
-<li>Open command palette</li>
-</ul>
-<p>You can find another pretty good guide in the <a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html">Jupyter docs</a>.</p>
-<hr>
-<p>One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.
-Also, the Notebook is capable of rendering text formatted in the Markdown syntax, the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought. This topic is discussed in more depth in <a href="https://www.dataquest.io/blog/data-science-portfolio-project/">this blog post</a>.</p>
-<p><img alt="Markdown" src="https://image.ibb.co/eVD23v/markdown.png" title="Markdown cell" /></p>
-<p><links></links></p>
-<p><images></images></p>
-</hr></div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-notebook-and-data-analysis">The notebook and data analysis<a class="anchor-link" href="#The-notebook-and-data-analysis">¶</a></h1><p>To exemplify the advantages mentioned above, we will perform a pretty basic data analysis on a dataset</p>
-<p>The first step is to import the required modules:</p>
-<ul>
-<li><code>pandas</code> - for managing data in the form of <code>dataframes</code> (tabulated)</li>
-<li><code>numpy</code> - the numerical module</li>
-<li><code>matplotlib</code> - for plotting charts</li>
-</ul>
-<p>The <code>%matplotlib inline</code> command will be discussed in a few moments, for now let us just accept its necessity.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [1]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The dataset we'll be dealing with was put together by the user GregorySmith in the Kaggle community, available at this link: <a href="https://www.kaggle.com/gregorut/videogamesales">https://www.kaggle.com/gregorut/videogamesales</a>. It contains videogame sales data.</p>
-<p>First we load the dataset into a dataframe with the pandas function <code>read_csv</code>, by passing the file location as its argument, and then take a look at the data. The code below assumes the dataset is in the current directory and uses the <code>os.getcwd()</code> method to build the path.</p>
-<p>The <code>dropna()</code> method is called to rid the dataset of eventual missing data (<code>NaN</code>, <code>NA</code>, <code>NaT</code>, etc.) and the <code>head()</code> method displays the first 5 rows</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [2]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Jupyter-Notebook-Tutorial"&gt;Jupyter Notebook Tutorial&lt;a class="anchor-link" href="#Jupyter-Notebook-Tutorial"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;According to &lt;a href="https://jupyter.org/"&gt;https://jupyter.org/&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go on (in real time) [review]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Installing"&gt;Installing&lt;a class="anchor-link" href="#Installing"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;in order to start using the jupyter notebook we first need to install the python language, what can be done either via the &amp;lt;a href="https://www.python.org/downloads/"&gt;python source&lt;/a&gt; or the &lt;a href="https://www.continuum.io/downloads"&gt;anaconda distribution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The anaconda distribution is a the leading python platform for data science, including the most used modules (&lt;code&gt;pandas&lt;/code&gt;,&lt;code&gt;matplotlib&lt;/code&gt;,&lt;code&gt;numpy&lt;/code&gt;)&gt;&lt;/p&gt;
+&lt;p&gt;Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.&lt;/p&gt;
+&lt;print screen=""&gt;
+&lt;p&gt;You can download the anaconda package for your desired OS in the following link: &lt;a href="https://www.continuum.io/downloads"&gt;https://www.continuum.io/downloads&lt;/a&gt; and then proceed with the installation.
+To launch the Jupyter Notebook server, either open a command line and type &lt;code&gt;jupyter notebook&lt;/code&gt; or run the Jupyter application.&lt;/p&gt;
+&lt;image command="" line=""&gt;
+&lt;/image&gt;&lt;/print&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Creating-a-notebook"&gt;Creating a notebook&lt;a class="anchor-link" href="#Creating-a-notebook"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Once you’ve started the notebook server, it will open the Notebook Dashboard in the system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dashboard" src="https://image.ibb.co/mw68tv/dashboard.png" title="Dashboard" /&gt;&lt;/p&gt;
+&lt;p&gt;In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New notebook creation" src="https://image.ibb.co/gyQ1Dv/new_notebook.png" title="New notebook creation" /&gt;&lt;/p&gt;
+&lt;p&gt;The notebook is organized by cells where you can write code or text&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cell" src="https://image.ibb.co/nt3Gfa/cell.png" title="Cell" /&gt;&lt;/p&gt;
+&lt;p&gt;After you write some code in the input cell &lt;code&gt;In [ ]&lt;/code&gt;, you can execute it by pressing &lt;code&gt;Shift + Enter&lt;/code&gt; or clicking the “Run cell” button in the toolbar; the output will be shown in the output cell &lt;code&gt;Out [ ]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cell code output" src="https://image.ibb.co/h7k40a/in_out.png" title="Cell code and its output" /&gt;&lt;/p&gt;
+&lt;p&gt;There are other buttons on the toolbar, here’s a brief list of their functionalities&lt;add icons=""&gt;:&lt;/add&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Save and Checkpoint&lt;/li&gt;
+&lt;li&gt;Insert cell below&lt;/li&gt;
+&lt;li&gt;Cut selected cells&lt;/li&gt;
+&lt;li&gt;Copy selected cells&lt;/li&gt;
+&lt;li&gt;Paste cells below&lt;/li&gt;
+&lt;li&gt;Move selected cells up&lt;/li&gt;
+&lt;li&gt;Move selected cells down&lt;/li&gt;
+&lt;li&gt;Run cell, select below&lt;/li&gt;
+&lt;li&gt;Interrupt kernel&lt;/li&gt;
+&lt;li&gt;Restart the kernel&lt;/li&gt;
+&lt;li&gt;Cell type selector&lt;/li&gt;
+&lt;li&gt;Open command palette&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find another pretty good guide in the &lt;a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html"&gt;Jupyter docs&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.
+Also, the Notebook is capable of rendering text formatted in the Markdown syntax, the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought. This topic is discussed in more depth in &lt;a href="https://www.dataquest.io/blog/data-science-portfolio-project/"&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Markdown" src="https://image.ibb.co/eVD23v/markdown.png" title="Markdown cell" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;links&gt;&lt;/links&gt;&lt;/p&gt;
+&lt;p&gt;&lt;images&gt;&lt;/images&gt;&lt;/p&gt;
+&lt;/hr&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="The-notebook-and-data-analysis"&gt;The notebook and data analysis&lt;a class="anchor-link" href="#The-notebook-and-data-analysis"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;To exemplify the advantages mentioned above, we will perform a pretty basic data analysis on a dataset&lt;/p&gt;
+&lt;p&gt;The first step is to import the required modules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pandas&lt;/code&gt; - for managing data in the form of &lt;code&gt;dataframes&lt;/code&gt; (tabulated)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;numpy&lt;/code&gt; - the numerical module&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;matplotlib&lt;/code&gt; - for plotting charts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;%matplotlib inline&lt;/code&gt; command will be discussed in a few moments, for now let us just accept its necessity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;plt&lt;/span&gt;
+&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt; inline
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The dataset we'll be dealing with was put together by the user GregorySmith in the Kaggle community, available at this link: &lt;a href="https://www.kaggle.com/gregorut/videogamesales"&gt;https://www.kaggle.com/gregorut/videogamesales&lt;/a&gt;. It contains videogame sales data.&lt;/p&gt;
+&lt;p&gt;First we load the dataset into a dataframe with the pandas function &lt;code&gt;read_csv&lt;/code&gt;, by passing the file location as its argument, and then take a look at the data. The code below assumes the dataset is in the current directory and uses the &lt;code&gt;os.getcwd()&lt;/code&gt; method to build the path.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;dropna()&lt;/code&gt; method is called to rid the dataset of eventual missing data (&lt;code&gt;NaN&lt;/code&gt;, &lt;code&gt;NA&lt;/code&gt;, &lt;code&gt;NaT&lt;/code&gt;, etc.) and the &lt;code&gt;head()&lt;/code&gt; method displays the first 5 rows&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span> <span class="o">+</span> <span class="s1">'/vgsales.csv'</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Rank</th>
-<th>Name</th>
-<th>Platform</th>
-<th>Year</th>
-<th>Genre</th>
-<th>Publisher</th>
-<th>NA_Sales</th>
-<th>EU_Sales</th>
-<th>JP_Sales</th>
-<th>Other_Sales</th>
-<th>Global_Sales</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>1</td>
-<td>Wii Sports</td>
-<td>Wii</td>
-<td>2006.0</td>
-<td>Sports</td>
-<td>Nintendo</td>
-<td>41.49</td>
-<td>29.02</td>
-<td>3.77</td>
-<td>8.46</td>
-<td>82.74</td>
-</tr>
-<tr>
-<th>1</th>
-<td>2</td>
-<td>Super Mario Bros.</td>
-<td>NES</td>
-<td>1985.0</td>
-<td>Platform</td>
-<td>Nintendo</td>
-<td>29.08</td>
-<td>3.58</td>
-<td>6.81</td>
-<td>0.77</td>
-<td>40.24</td>
-</tr>
-<tr>
-<th>2</th>
-<td>3</td>
-<td>Mario Kart Wii</td>
-<td>Wii</td>
-<td>2008.0</td>
-<td>Racing</td>
-<td>Nintendo</td>
-<td>15.85</td>
-<td>12.88</td>
-<td>3.79</td>
-<td>3.31</td>
-<td>35.82</td>
-</tr>
-<tr>
-<th>3</th>
-<td>4</td>
-<td>Wii Sports Resort</td>
-<td>Wii</td>
-<td>2009.0</td>
-<td>Sports</td>
-<td>Nintendo</td>
-<td>15.75</td>
-<td>11.01</td>
-<td>3.28</td>
-<td>2.96</td>
-<td>33.00</td>
-</tr>
-<tr>
-<th>4</th>
-<td>5</td>
-<td>Pokemon Red/Pokemon Blue</td>
-<td>GB</td>
-<td>1996.0</td>
-<td>Role-Playing</td>
-<td>Nintendo</td>
-<td>11.27</td>
-<td>8.89</td>
-<td>10.22</td>
-<td>1.00</td>
-<td>31.37</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>There are 11 columns:</p>
-<ul>
-<li>Rank - the title overall position</li>
-<li>Name - the videogame title</li>
-<li>Platform - the main platform the game was launched for</li>
-<li>Year - the year of launching</li>
-<li>Genre - the genre of the title</li>
-<li>Publisher - the company responsible for the game</li>
-<li>NA_Sales - total of sales, in millions, in North America</li>
-<li>EU_Sales - total of sales, in millions, in Europe</li>
-<li>JP_Sales - total of sales, in millions, in Japan</li>
-<li>Other_Sales - total of sales, in millions, in the rest of the world</li>
-<li>Global_Sales - total of sales, in millions, worldwide</li>
-</ul>
-<hr>
-<h4 id="Now-for-the-questions:">Now for the questions:<a class="anchor-link" href="#Now-for-the-questions:">¶</a></h4><p>What are the 20 worldwide most sold games of all time?</p>
-<p>We can find that out by plotting a horizontal bar chart of the first 20 entries in the Global_Sales column, in descending order</p>
-</hr></div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [3]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">20</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">'Name'</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">'Global_Sales'</span><span class="p">,</span><span class="n">use_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Global Sales in millions'</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.text.text at 0x7f7837671908></pre>
-</div>
-</div>
-<div class="output_area"><div class="prompt"></div>
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlUAAAEKCAYAAAA7NqANAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_csv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getcwd&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s1"&gt;'/vgsales.csv'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dropna&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;inplace&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
+&lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
+&lt;div&gt;
+&lt;table border="1" class="dataframe"&gt;
+&lt;thead&gt;
+&lt;tr style="text-align: right;"&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Rank&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Platform&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Genre&lt;/th&gt;
+&lt;th&gt;Publisher&lt;/th&gt;
+&lt;th&gt;NA_Sales&lt;/th&gt;
+&lt;th&gt;EU_Sales&lt;/th&gt;
+&lt;th&gt;JP_Sales&lt;/th&gt;
+&lt;th&gt;Other_Sales&lt;/th&gt;
+&lt;th&gt;Global_Sales&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Wii Sports&lt;/td&gt;
+&lt;td&gt;Wii&lt;/td&gt;
+&lt;td&gt;2006.0&lt;/td&gt;
+&lt;td&gt;Sports&lt;/td&gt;
+&lt;td&gt;Nintendo&lt;/td&gt;
+&lt;td&gt;41.49&lt;/td&gt;
+&lt;td&gt;29.02&lt;/td&gt;
+&lt;td&gt;3.77&lt;/td&gt;
+&lt;td&gt;8.46&lt;/td&gt;
+&lt;td&gt;82.74&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Super Mario Bros.&lt;/td&gt;
+&lt;td&gt;NES&lt;/td&gt;
+&lt;td&gt;1985.0&lt;/td&gt;
+&lt;td&gt;Platform&lt;/td&gt;
+&lt;td&gt;Nintendo&lt;/td&gt;
+&lt;td&gt;29.08&lt;/td&gt;
+&lt;td&gt;3.58&lt;/td&gt;
+&lt;td&gt;6.81&lt;/td&gt;
+&lt;td&gt;0.77&lt;/td&gt;
+&lt;td&gt;40.24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Mario Kart Wii&lt;/td&gt;
+&lt;td&gt;Wii&lt;/td&gt;
+&lt;td&gt;2008.0&lt;/td&gt;
+&lt;td&gt;Racing&lt;/td&gt;
+&lt;td&gt;Nintendo&lt;/td&gt;
+&lt;td&gt;15.85&lt;/td&gt;
+&lt;td&gt;12.88&lt;/td&gt;
+&lt;td&gt;3.79&lt;/td&gt;
+&lt;td&gt;3.31&lt;/td&gt;
+&lt;td&gt;35.82&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Wii Sports Resort&lt;/td&gt;
+&lt;td&gt;Wii&lt;/td&gt;
+&lt;td&gt;2009.0&lt;/td&gt;
+&lt;td&gt;Sports&lt;/td&gt;
+&lt;td&gt;Nintendo&lt;/td&gt;
+&lt;td&gt;15.75&lt;/td&gt;
+&lt;td&gt;11.01&lt;/td&gt;
+&lt;td&gt;3.28&lt;/td&gt;
+&lt;td&gt;2.96&lt;/td&gt;
+&lt;td&gt;33.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;4&lt;/th&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Pokemon Red/Pokemon Blue&lt;/td&gt;
+&lt;td&gt;GB&lt;/td&gt;
+&lt;td&gt;1996.0&lt;/td&gt;
+&lt;td&gt;Role-Playing&lt;/td&gt;
+&lt;td&gt;Nintendo&lt;/td&gt;
+&lt;td&gt;11.27&lt;/td&gt;
+&lt;td&gt;8.89&lt;/td&gt;
+&lt;td&gt;10.22&lt;/td&gt;
+&lt;td&gt;1.00&lt;/td&gt;
+&lt;td&gt;31.37&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;There are 11 columns:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rank - the title overall position&lt;/li&gt;
+&lt;li&gt;Name - the videogame title&lt;/li&gt;
+&lt;li&gt;Platform - the main platform the game was launched for&lt;/li&gt;
+&lt;li&gt;Year - the year of launching&lt;/li&gt;
+&lt;li&gt;Genre - the genre of the title&lt;/li&gt;
+&lt;li&gt;Publisher - the company responsible for the game&lt;/li&gt;
+&lt;li&gt;NA_Sales - total of sales, in millions, in North America&lt;/li&gt;
+&lt;li&gt;EU_Sales - total of sales, in millions, in Europe&lt;/li&gt;
+&lt;li&gt;JP_Sales - total of sales, in millions, in Japan&lt;/li&gt;
+&lt;li&gt;Other_Sales - total of sales, in millions, in the rest of the world&lt;/li&gt;
+&lt;li&gt;Global_Sales - total of sales, in millions, worldwide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id="Now-for-the-questions:"&gt;Now for the questions:&lt;a class="anchor-link" href="#Now-for-the-questions:"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;What are the 20 worldwide most sold games of all time?&lt;/p&gt;
+&lt;p&gt;We can find that out by plotting a horizontal bar chart of the first 20 entries in the Global_Sales column, in descending order&lt;/p&gt;
+&lt;/hr&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [3]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iloc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;][::&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;barh&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;use_index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Global Sales in millions'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;&lt;matplotlib.text.text at 0x7f7837671908&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_png output_subarea "&gt;
+&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlUAAAEKCAYAAAA7NqANAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzs3XeYXVXZ/vHvnYB0Qi8Khg5SAgQChCKDCK8UMYBUKSIC
 ClIEbD/1JaivoSMi0oQAgkJAOtJJSEiAVFLoAhFBkoC00GJC7t8fa53MnpNzZs4ZZjIlz+e6zpVd
 1l577ZNMsrLW2s8j24QQQgghhM+mR0c3IIQQQgihO4hOVQghhBBCG4hOVQghhBBCG4hOVQghhBBC
@@ -1706,47 +1672,47 @@ AF5Nt2NmWyT9Z+L4xvGc3gXul1RICHZuMrMN1RyXbH5Wtr6qbRn3NbNSSWcDD8c5XLOAO6uwd0EM
 VrcSxubpHPp1dmIUMrqO4ziO4zjOjuCP/xzHcRzHcWoBD6ocx3Ecx3FqAQ+qHMdxHMdxagEPqhzH
 cRzHcWoBD6ocx3Ecx3FqAQ+qHMdxHMdxagEPqhzHcRzHcWoBD6ocx3Ecx3Fqgf8H+c2v1qiZyYgA
 AAAASUVORK5CYII=
-">
-</img></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>As expected, we can see classics like Mario and Pokémon, as well as the more recent success of the Grand Theft Auto franchise, dominating the first positions.</p>
-<p>But this result is for sales worldwide, one can wonder if the cultural differences between Japan and North America would lead to different results.</p>
-<p>Let's make two other top 20 sellers horizontal bar charts, one for Japan and other for North America, and place them side-by-side</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [4]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
-<span class="n">ax1</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">121</span><span class="p">)</span>
-<span class="n">ax2</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">122</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'JP_Sales'</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">20</span><span class="p">,:][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="s1">'Name'</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">'JP_Sales'</span><span class="p">,</span><span class="n">use_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Japan Sales in millions'</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'NA_Sales'</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">20</span><span class="p">,:][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="s1">'Name'</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">'NA_Sales'</span><span class="p">,</span><span class="n">use_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">ax2</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'North America Sales in millions'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1gAAAEYCAYAAABBWFftAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+"&gt;
+&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;As expected, we can see classics like Mario and Pokémon, as well as the more recent success of the Grand Theft Auto franchise, dominating the first positions.&lt;/p&gt;
+&lt;p&gt;But this result is for sales worldwide, one can wonder if the cultural differences between Japan and North America would lead to different results.&lt;/p&gt;
+&lt;p&gt;Let's make two other top 20 sellers horizontal bar charts, one for Japan and other for North America, and place them side-by-side&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [4]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;fig&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;figsize&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_subplot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;121&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_subplot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;122&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort_values&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'JP_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ascending&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iloc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,:][::&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;barh&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'JP_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;use_index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ax&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Japan Sales in millions'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort_values&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'NA_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ascending&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iloc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,:][::&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;barh&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'NA_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;use_index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ax&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'North America Sales in millions'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tight_layout&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_png output_subarea "&gt;
+&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1gAAAEYCAYAAABBWFftAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsvXm8llXV///+QKbmQI5g5oMTWg4IAiKDccqhnAo1NUey
 UktTy+zJ768ByJ4wLc3MVEwJh5wFZwWVIwjKJDI4UCpoE+CEISoKrN8fe13nXOfmng4cOOdw1vv1
 ul/3de1x7es6Z6977732XjIzgiAIgiAIgiAIgjWnXXMLEARBEARBEARBsL4QA6wgCIIgCIIgCIIm
@@ -2613,160 +2579,160 @@ oG5L7Uel+9+cdBFDgQFuG/9Icquv1PZGwDi/rtMo/z5zu6P0nQVBEHRufNbwb/7ybtH5PsC92Xbq
 QRAEQRAEHUGsYAVB0OmRdARp5erUJorGjFEQBEEQBB1KrGAFQRAEQRAESXulvQAAAEtJREFUQRBU
 iVjBCoIgCIIgCIIgqBIxwAqCIAiCIAiCIKgSMcAKgiAIgiAIgiCoEjHACoIgCIIgCIIgqBIxwAqC
 IAiCIAiCIKgS/x+c12sZ8eUL1gAAAABJRU5ErkJggg==
-">
-</img></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The tastes are indeed really diverse, there were only 5 titles figuring in both lists (Super Mario Bros., New Super Mario Bros., Tetris, Pokémon Red/Blue and Mario Kart for Nintendo DS). Also, it appears the Pokémon franchise was even more successful in the east (6 of the top 20 with 5 of those being top 7)!</p>
-<hr>
-<p>At first sight it appears that Nintendo games fare really well in all corners (?) of the globe, but is the company as a whole among top sellers?</p>
-<p><strong>Let's find out by creating a new dataframe with the total of sales by publishers.</strong></p>
-<p>First we get the unique values in the <code>Publisher</code> column by creating a <code>set</code> and then turn it into a <code>list</code>.</p>
-</hr></div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [5]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_publisher</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Publisher'</span><span class="p">]))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Next we create a list with the total of global sales for each publisher. We do that with aid of a list comprehension and boolean indexing.</p>
-<ul>
-<li>we first iterate over <code>unique_publisher</code> with the variable of iteration <code>i</code></li>
-<li>then we find matches for it in the <code>Publisher</code> column of our original dataset</li>
-<li>adding the corresponding values in the <code>Global_Sales</code> column</li>
-<li>we finish it by wrapping it with <code>[]</code> creating a list</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [6]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sales_publisher</span> <span class="o">=</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'Publisher'</span><span class="p">]</span> <span class="o">==</span> <span class="n">i</span><span class="p">][</span><span class="s1">'Global_Sales'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">unique_publisher</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we build the new dataframe with columns <code>Publisher</code> and <code>Global_Sales</code> and data <code>unique_publisher</code> and <code>sales_publisher</code>. Let's ake a look.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [7]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">publisher_sales</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'Publisher'</span><span class="p">:</span><span class="n">unique_publisher</span><span class="p">,</span><span class="s1">'Global_Sales'</span><span class="p">:</span><span class="n">sales_publisher</span><span class="p">})</span>
-<span class="n">publisher_sales</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Global_Sales</th>
-<th>Publisher</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>0.74</td>
-<td>Pioneer LDC</td>
-</tr>
-<tr>
-<th>1</th>
-<td>0.05</td>
-<td>Monte Christo Multimedia</td>
-</tr>
-<tr>
-<th>2</th>
-<td>2.59</td>
-<td>SNK</td>
-</tr>
-<tr>
-<th>3</th>
-<td>0.88</td>
-<td>Destination Software, Inc</td>
-</tr>
-<tr>
-<th>4</th>
-<td>0.03</td>
-<td>Paon Corporation</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Is Nintendo at the top? Also, what does the top 20 looks like? Well, on to anoter horizontal bar plot</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [8]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">publisher_sales</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Global_Sales'</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">20</span><span class="p">,:][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="s1">'Publisher'</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">'Global_Sales'</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Global Sales In millions'</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.text.text at 0x7f7837412438></pre>
-</div>
-</div>
-<div class="output_area"><div class="prompt"></div>
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAAEKCAYAAAD+RDqcAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+"&gt;
+&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The tastes are indeed really diverse, there were only 5 titles figuring in both lists (Super Mario Bros., New Super Mario Bros., Tetris, Pokémon Red/Blue and Mario Kart for Nintendo DS). Also, it appears the Pokémon franchise was even more successful in the east (6 of the top 20 with 5 of those being top 7)!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;At first sight it appears that Nintendo games fare really well in all corners (?) of the globe, but is the company as a whole among top sellers?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Let's find out by creating a new dataframe with the total of sales by publishers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;First we get the unique values in the &lt;code&gt;Publisher&lt;/code&gt; column by creating a &lt;code&gt;set&lt;/code&gt; and then turn it into a &lt;code&gt;list&lt;/code&gt;.&lt;/p&gt;
+&lt;/hr&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [5]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;unique_publisher&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'Publisher'&lt;/span&gt;&lt;span class="p"&gt;]))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Next we create a list with the total of global sales for each publisher. We do that with aid of a list comprehension and boolean indexing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;we first iterate over &lt;code&gt;unique_publisher&lt;/code&gt; with the variable of iteration &lt;code&gt;i&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;then we find matches for it in the &lt;code&gt;Publisher&lt;/code&gt; column of our original dataset&lt;/li&gt;
+&lt;li&gt;adding the corresponding values in the &lt;code&gt;Global_Sales&lt;/code&gt; column&lt;/li&gt;
+&lt;li&gt;we finish it by wrapping it with &lt;code&gt;[]&lt;/code&gt; creating a list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sales_publisher&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="s1"&gt;'Publisher'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;unique_publisher&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Now we build the new dataframe with columns &lt;code&gt;Publisher&lt;/code&gt; and &lt;code&gt;Global_Sales&lt;/code&gt; and data &lt;code&gt;unique_publisher&lt;/code&gt; and &lt;code&gt;sales_publisher&lt;/code&gt;. Let's ake a look.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [7]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;publisher_sales&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DataFrame&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s1"&gt;'Publisher'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;unique_publisher&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;sales_publisher&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
+&lt;span class="n"&gt;publisher_sales&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[7]:&lt;/div&gt;
+&lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
+&lt;div&gt;
+&lt;table border="1" class="dataframe"&gt;
+&lt;thead&gt;
+&lt;tr style="text-align: right;"&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Global_Sales&lt;/th&gt;
+&lt;th&gt;Publisher&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;td&gt;0.74&lt;/td&gt;
+&lt;td&gt;Pioneer LDC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;td&gt;0.05&lt;/td&gt;
+&lt;td&gt;Monte Christo Multimedia&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;td&gt;2.59&lt;/td&gt;
+&lt;td&gt;SNK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;td&gt;0.88&lt;/td&gt;
+&lt;td&gt;Destination Software, Inc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;4&lt;/th&gt;
+&lt;td&gt;0.03&lt;/td&gt;
+&lt;td&gt;Paon Corporation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Is Nintendo at the top? Also, what does the top 20 looks like? Well, on to anoter horizontal bar plot&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [8]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;publisher_sales&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort_values&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ascending&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iloc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,:][::&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;barh&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Publisher'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Global Sales In millions'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[8]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;&lt;matplotlib.text.text at 0x7f7837412438&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_png output_subarea "&gt;
+&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAAEKCAYAAAD+RDqcAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsnXeYnVXVvu8noYeOkCBKKApICUkgdGQookgRFESKBD4E
 P/CjCIIVkwgKSPlRxAJiQDpIEVCakNBCICQhhUAEKSqSANJCJ8nz+2Pvk3lzcs6cc5KZnJnMuq/r
 XPO++91lvXtmMitr770e2SYIgiAIgqA70qPZBgRBEARBEDSLcISCIAiCIOi2hCMUBEEQBEG3JRyh
@@ -3152,208 +3118,208 @@ BXCtpBpgJbAQ+L6ZvSfpBtLo1evAlPx2zOxjSd/IXN/K72k+cJukDqQA5Roze7+RfilmZ335DZUV
 rGtmKySdCNzta5KeA37bQHtneoC5iuSbR5rQb7CRojSqGgRBEARBUH3E1FgQBEEQBFVLBEJBEARB
 EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 1fIfa+Pqll6k3i4AAAAASUVORK5CYII=
-">
-</img></div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Nintendo is still the uncontested champion, by an even greater margin than expected. We can still see household names like Sega (9th), Nintendo's great competitor in the 90's, Capcom (12th), responsible for one of the most iconical franchises of the fighting genre in Street Fighter, and Disney Interactive Studios (16th), Disney's videogame division.</p>
-<hr>
-<p><strong>Bônus</strong></p>
-<p>Is my childhood favorite game, "Rock and roll racing", on this list? Was it a success?</p>
-<p>Lemme see</p>
-</hr></div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [13]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'Name'</span><span class="p">]</span><span class="o">==</span><span class="s1">'Rock and roll racing'</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Rank</th>
-<th>Name</th>
-<th>Platform</th>
-<th>Year</th>
-<th>Genre</th>
-<th>Publisher</th>
-<th>NA_Sales</th>
-<th>EU_Sales</th>
-<th>JP_Sales</th>
-<th>Other_Sales</th>
-<th>Global_Sales</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Nothing, maybe I mistyped? Let's check it manually, how hard can it be?</p>
-<p>Different approach: let's see how many games whose title begin with "R" there are</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [10]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">([</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'Name'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span> <span class="k">if</span> <span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">'R'</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre>701</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>701 is quite a lot.</p>
-<p>Time to work smart, not hard.</p>
-<p>In one word >> <code>regular expressions</code></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [11]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
-<span class="n">regex</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s1">'rock[\S\s]+ing'</span><span class="p">,</span><span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
-<span class="p">[</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'Name'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span> <span class="k">if</span> <span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">'R'</span><span class="p">]</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="p">[</span><span class="n">regex</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">l</span><span class="p">)]</span> <span class="k">if</span> <span class="n">m</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre>["Rock 'N Roll Racing", "Rock N' Roll Racing"]</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Two entries? Oh, I see, titlecase and a little uncertainty regarding the apostrophe position.</p>
-<p>All the merrier, let's combine'em and see how many copies of this <em>amazing</em> game were sold:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [12]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rnr_sales</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"Rock 'N Roll Racing"</span><span class="p">,</span> <span class="s2">"Rock N' Roll Racing"</span><span class="p">]:</span>
-    <span class="n">rnr_sales</span> <span class="o">+=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'Name'</span><span class="p">]</span> <span class="o">==</span> <span class="n">i</span><span class="p">][</span><span class="s1">'Global_Sales'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+"&gt;
+&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Nintendo is still the uncontested champion, by an even greater margin than expected. We can still see household names like Sega (9th), Nintendo's great competitor in the 90's, Capcom (12th), responsible for one of the most iconical franchises of the fighting genre in Street Fighter, and Disney Interactive Studios (16th), Disney's videogame division.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Bônus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Is my childhood favorite game, "Rock and roll racing", on this list? Was it a success?&lt;/p&gt;
+&lt;p&gt;Lemme see&lt;/p&gt;
+&lt;/hr&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [13]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;'Rock and roll racing'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[13]:&lt;/div&gt;
+&lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
+&lt;div&gt;
+&lt;table border="1" class="dataframe"&gt;
+&lt;thead&gt;
+&lt;tr style="text-align: right;"&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Rank&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Platform&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Genre&lt;/th&gt;
+&lt;th&gt;Publisher&lt;/th&gt;
+&lt;th&gt;NA_Sales&lt;/th&gt;
+&lt;th&gt;EU_Sales&lt;/th&gt;
+&lt;th&gt;JP_Sales&lt;/th&gt;
+&lt;th&gt;Other_Sales&lt;/th&gt;
+&lt;th&gt;Global_Sales&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Nothing, maybe I mistyped? Let's check it manually, how hard can it be?&lt;/p&gt;
+&lt;p&gt;Different approach: let's see how many games whose title begin with "R" there are&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [10]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;'R'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;701&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;701 is quite a lot.&lt;/p&gt;
+&lt;p&gt;Time to work smart, not hard.&lt;/p&gt;
+&lt;p&gt;In one word &gt;&gt; &lt;code&gt;regular expressions&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [11]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;re&lt;/span&gt;
+&lt;span class="n"&gt;regex&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'rock[\S\s]+ing'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IGNORECASE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;'R'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;regex&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;["Rock 'N Roll Racing", "Rock N' Roll Racing"]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Two entries? Oh, I see, titlecase and a little uncertainty regarding the apostrophe position.&lt;/p&gt;
+&lt;p&gt;All the merrier, let's combine'em and see how many copies of this &lt;em&gt;amazing&lt;/em&gt; game were sold:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [12]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;rnr_sales&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"Rock 'N Roll Racing"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"Rock N' Roll Racing"&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+    &lt;span class="n"&gt;rnr_sales&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="s1"&gt;'Name'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="s1"&gt;'Global_Sales'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"It sold an astonishingly amount of </span><span class="si">{}</span><span class="s2"> millions!"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">rnr_sales</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>It sold an astonishingly amount of 0.060000000000000005 millions!
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>...I swear it was awesome</p>
-<p><img alt="Rock&#x27;n roll racing" src="http://www.rocknrollracing.org/banda.gif" /></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Other-functionalities">Other functionalities<a class="anchor-link" href="#Other-functionalities">¶</a></h1><h3 id="Magic-commands">Magic commands<a class="anchor-link" href="#Magic-commands">¶</a></h3><p>Remember the <code>%matplotlib inline</code> command? Me too.</p>
-<p>Commands beginning by <code>%</code> are called magic commands, <code>%matplotlib inline</code> is a <code>line</code> magic command that allows <code>matplotlib</code> charts to be exibited in the <code>output cell</code> (doesn't open a new window with the plot), like the charts above.</p>
-<p>There are also <code>cell</code> magic commands and plenty of other <code>line</code> ones. Some of the most useful ones are very well explained in <a href="https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/">this reference</a>, for a complete list visit the <a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html">IPython docs page</a> (or type <code>%lsmagic</code> and start feeling it).</p>
-<h3 id="Shell-Commands">Shell Commands<a class="anchor-link" href="#Shell-Commands">¶</a></h3><p>You can use shell commands by putting an exclamation mark at the beginning of the command</p>
-<p><code>! pip freeze | grep pandas</code></p>
-<h3 id="Github-integration">Github integration<a class="anchor-link" href="#Github-integration">¶</a></h3><p>Since may 7th 2015 <a href="https://github.com/blog/1995-github-jupyter-notebooks-3">Github is able to render jupyter notebooks</a>.</p>
-<p>What does that mean?</p>
-<p>Well, it means you can share your notebooks (<a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks">and visualize from others</a>) even with those who doesn't have it installed, and you don't even have to have a github account (although I firmly suggest you create one if that is the case: <a href="https://github.com/join">https://github.com/join</a>).</p>
-<h3 id="Other-languages">Other languages<a class="anchor-link" href="#Other-languages">¶</a></h3><p>Jupyter doesn't only work with Python. There are plenty of <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">other kernels</a> and you can also use <code>cell</code> magics to run code in different languages</p>
-<pre><code>%%bash
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"It sold an astonishingly amount of &lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s2"&gt; millions!"&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rnr_sales&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;It sold an astonishingly amount of 0.060000000000000005 millions!
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;...I swear it was awesome&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rock&amp;#x27;n roll racing" src="http://www.rocknrollracing.org/banda.gif" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Other-functionalities"&gt;Other functionalities&lt;a class="anchor-link" href="#Other-functionalities"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;h3 id="Magic-commands"&gt;Magic commands&lt;a class="anchor-link" href="#Magic-commands"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Remember the &lt;code&gt;%matplotlib inline&lt;/code&gt; command? Me too.&lt;/p&gt;
+&lt;p&gt;Commands beginning by &lt;code&gt;%&lt;/code&gt; are called magic commands, &lt;code&gt;%matplotlib inline&lt;/code&gt; is a &lt;code&gt;line&lt;/code&gt; magic command that allows &lt;code&gt;matplotlib&lt;/code&gt; charts to be exibited in the &lt;code&gt;output cell&lt;/code&gt; (doesn't open a new window with the plot), like the charts above.&lt;/p&gt;
+&lt;p&gt;There are also &lt;code&gt;cell&lt;/code&gt; magic commands and plenty of other &lt;code&gt;line&lt;/code&gt; ones. Some of the most useful ones are very well explained in &lt;a href="https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/"&gt;this reference&lt;/a&gt;, for a complete list visit the &lt;a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html"&gt;IPython docs page&lt;/a&gt; (or type &lt;code&gt;%lsmagic&lt;/code&gt; and start feeling it).&lt;/p&gt;
+&lt;h3 id="Shell-Commands"&gt;Shell Commands&lt;a class="anchor-link" href="#Shell-Commands"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can use shell commands by putting an exclamation mark at the beginning of the command&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;! pip freeze | grep pandas&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="Github-integration"&gt;Github integration&lt;a class="anchor-link" href="#Github-integration"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Since may 7th 2015 &lt;a href="https://github.com/blog/1995-github-jupyter-notebooks-3"&gt;Github is able to render jupyter notebooks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What does that mean?&lt;/p&gt;
+&lt;p&gt;Well, it means you can share your notebooks (&lt;a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks"&gt;and visualize from others&lt;/a&gt;) even with those who doesn't have it installed, and you don't even have to have a github account (although I firmly suggest you create one if that is the case: &lt;a href="https://github.com/join"&gt;https://github.com/join&lt;/a&gt;).&lt;/p&gt;
+&lt;h3 id="Other-languages"&gt;Other languages&lt;a class="anchor-link" href="#Other-languages"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Jupyter doesn't only work with Python. There are plenty of &lt;a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels"&gt;other kernels&lt;/a&gt; and you can also use &lt;code&gt;cell&lt;/code&gt; magics to run code in different languages&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;%%bash
 #!/bin/bash
 # declare STRING variable
 STRING='Hello World'
 # print variable on a screen
-echo $STRING</code></pre>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="That-was-it">That was it<a class="anchor-link" href="#That-was-it">¶</a></h1><p>In case of any doubt feel free to contact me and I strongly suggest you visit <a href="https://jupyter.readthedocs.io/en/latest/">Jupyter</a> and <a href="https://docs.python.org/3/">Python</a> documentations, as well as forums like <a href="https://www.quora.com/">Quora</a>, <a href="http://stackoverflow.com/">StackOverflow</a>, blogs like <a href="https://www.dataquest.io/">Dataquest</a> and this awesome <a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks">collection of notebooks</a>.</p>
-</div>
-</div>
-</div>
+echo $STRING&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="That-was-it"&gt;That was it&lt;a class="anchor-link" href="#That-was-it"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;In case of any doubt feel free to contact me and I strongly suggest you visit &lt;a href="https://jupyter.readthedocs.io/en/latest/"&gt;Jupyter&lt;/a&gt; and &lt;a href="https://docs.python.org/3/"&gt;Python&lt;/a&gt; documentations, as well as forums like &lt;a href="https://www.quora.com/"&gt;Quora&lt;/a&gt;, &lt;a href="http://stackoverflow.com/"&gt;StackOverflow&lt;/a&gt;, blogs like &lt;a href="https://www.dataquest.io/"&gt;Dataquest&lt;/a&gt; and this awesome &lt;a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks"&gt;collection of notebooks&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -3380,86 +3346,5 @@ echo $STRING</code></pre>
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://julionaojulho.github.io/first-post.html" rel="bookmark"
-                           title="Permalink to First Post">First Post</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-03-25T00:30:00-03:00">
-                Published: Sáb 25 março 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://julionaojulho.github.io/author/julio-ferreira.html">Julio Ferreira</a>
-        </address>
-<p>In <a href="http://julionaojulho.github.io/category/posts.html">posts</a>.</p>
-<p>tags: <a href="http://julionaojulho.github.io/tag/signal-processing.html">signal processing</a> </p>
-</footer><!-- /.post-info -->                
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="First-post!">First post!<a class="anchor-link" href="#First-post!">¶</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>On this brog I intend to post some notebook-based python tutorials, mainly for transport phenomena.</p>
-<p>While you're at it, look at some meaningless plots:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-                <a class="readmore" href="http://julionaojulho.github.io/first-post.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://julionaojulho.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
-</html>
+&lt;/script&gt;
+</summary><category term="python"></category><category term="tutorials"></category><category term="jupyter"></category><category term="notebooks"></category></entry></feed>
