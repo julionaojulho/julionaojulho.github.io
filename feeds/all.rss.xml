@@ -3130,8 +3130,7 @@ EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Nintendo is still the uncontested champion, by an even greater margin than expected. We can still see household names like Sega (9th), Nintendo's great competitor in the 90's, Capcom (12th), responsible for one of the most iconical franchises of the fighting genre in Street Fighter, and Disney Interactive Studios (16th), Disney's videogame division.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Bônus&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Is my childhood favorite game, "Rock and roll racing", on this list? Was it a success?&lt;/p&gt;
+&lt;h2 id="Bonus"&gt;Bonus&lt;a class="anchor-link" href="#Bonus"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Is my childhood favorite game, "Rock and roll racing", on this list? Was it a success?&lt;/p&gt;
 &lt;p&gt;Lemme see&lt;/p&gt;
 &lt;/hr&gt;&lt;/div&gt;
 &lt;/div&gt;
