@@ -992,7 +992,8 @@ h6:hover .anchor-link {
 &lt;h1 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;According to &lt;a href="https://jupyter.org/"&gt;https://jupyter.org/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go on (in real time) [review]&lt;/p&gt;
+&lt;p&gt;Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go.&lt;/p&gt;
+&lt;p&gt;Also, Jupyter is &lt;em&gt;the&lt;/em&gt; best IDE(ish) there is, in my humble and final opinion.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1001,12 +1002,10 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Installing"&gt;Installing&lt;a class="anchor-link" href="#Installing"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;in order to start using the jupyter notebook we first need to install the python language, what can be done either via the &amp;lt;a href="https://www.python.org/downloads/"&gt;python source&lt;/a&gt; or the &lt;a href="https://www.continuum.io/downloads"&gt;anaconda distribution&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The anaconda distribution is a the leading python platform for data science, including the most used modules (&lt;code&gt;pandas&lt;/code&gt;,&lt;code&gt;matplotlib&lt;/code&gt;,&lt;code&gt;numpy&lt;/code&gt;)&gt;&lt;/p&gt;
-&lt;p&gt;Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.&lt;/p&gt;
+&lt;h1 id="Installing"&gt;Installing&lt;a class="anchor-link" href="#Installing"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.&lt;/p&gt;
 &lt;print screen=""&gt;
-&lt;p&gt;You can download the anaconda package for your desired OS in the following link: &lt;a href="https://www.continuum.io/downloads"&gt;https://www.continuum.io/downloads&lt;/a&gt; and then proceed with the installation.
-To launch the Jupyter Notebook server, either open a command line and type &lt;code&gt;jupyter notebook&lt;/code&gt; or run the Jupyter application.&lt;/p&gt;
+&lt;p&gt;You can download the anaconda package for your desired OS in the following link: &lt;a href="https://www.continuum.io/downloads"&gt;https://www.continuum.io/downloads&lt;/a&gt; and then proceed with the installation.&lt;/p&gt;
+&lt;p&gt;To launch the Jupyter Notebook server, either open a command line and type &lt;code&gt;jupyter notebook&lt;/code&gt; or run the Jupyter application.&lt;/p&gt;
 &lt;image command="" line=""&gt;
 &lt;/image&gt;&lt;/print&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -1016,15 +1015,15 @@ To launch the Jupyter Notebook server, either open a command line and type &lt;c
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Creating-a-notebook"&gt;Creating a notebook&lt;a class="anchor-link" href="#Creating-a-notebook"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Once you’ve started the notebook server, it will open the Notebook Dashboard in the system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory.&lt;/p&gt;
+&lt;h1 id="Creating-a-notebook"&gt;Creating a notebook&lt;a class="anchor-link" href="#Creating-a-notebook"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Once you’ve started the notebook server, it will open the Notebook Dashboard in your system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Dashboard" src="https://image.ibb.co/mw68tv/dashboard.png" title="Dashboard" /&gt;&lt;/p&gt;
-&lt;p&gt;In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel&lt;/p&gt;
+&lt;p&gt;In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel (in our case Python 3)&lt;/p&gt;
 &lt;p&gt;&lt;img alt="New notebook creation" src="https://image.ibb.co/gyQ1Dv/new_notebook.png" title="New notebook creation" /&gt;&lt;/p&gt;
 &lt;p&gt;The notebook is organized by cells where you can write code or text&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Cell" src="https://image.ibb.co/nt3Gfa/cell.png" title="Cell" /&gt;&lt;/p&gt;
 &lt;p&gt;After you write some code in the input cell &lt;code&gt;In [ ]&lt;/code&gt;, you can execute it by pressing &lt;code&gt;Shift + Enter&lt;/code&gt; or clicking the “Run cell” button in the toolbar; the output will be shown in the output cell &lt;code&gt;Out [ ]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Cell code output" src="https://image.ibb.co/h7k40a/in_out.png" title="Cell code and its output" /&gt;&lt;/p&gt;
-&lt;p&gt;There are other buttons on the toolbar, here’s a brief list of their functionalities&lt;add icons=""&gt;:&lt;/add&gt;&lt;/p&gt;
+&lt;p&gt;There are other buttons on the toolbar, here’s a brief list, given the names, their functionalities are pretty straighforward (icons are missing):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Save and Checkpoint&lt;/li&gt;
 &lt;li&gt;Insert cell below&lt;/li&gt;
@@ -1041,8 +1040,8 @@ To launch the Jupyter Notebook server, either open a command line and type &lt;c
 &lt;/ul&gt;
 &lt;p&gt;You can find another pretty good guide in the &lt;a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html"&gt;Jupyter docs&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.
-Also, the Notebook is capable of rendering text formatted in the Markdown syntax, the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought. This topic is discussed in more depth in &lt;a href="https://www.dataquest.io/blog/data-science-portfolio-project/"&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.&lt;/p&gt;
+&lt;p&gt;Also, the Notebook is capable of rendering text formatted in the [Markdown syntax][markdowns], the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought $-$ this topic is discussed in more depth in &lt;a href="https://www.dataquest.io/blog/data-science-portfolio-project/"&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Markdown" src="https://image.ibb.co/eVD23v/markdown.png" title="Markdown cell" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;links&gt;&lt;/links&gt;&lt;/p&gt;
 &lt;p&gt;&lt;images&gt;&lt;/images&gt;&lt;/p&gt;
@@ -1054,14 +1053,14 @@ Also, the Notebook is capable of rendering text formatted in the Markdown syntax
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="The-notebook-and-data-analysis"&gt;The notebook and data analysis&lt;a class="anchor-link" href="#The-notebook-and-data-analysis"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;To exemplify the advantages mentioned above, we will perform a pretty basic data analysis on a dataset&lt;/p&gt;
+&lt;h1 id="The-notebook-and-data-analysis"&gt;The notebook and data analysis&lt;a class="anchor-link" href="#The-notebook-and-data-analysis"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;To exemplify the advantages mentioned above, we will perform a pretty basic analysis on a dataset.&lt;/p&gt;
 &lt;p&gt;The first step is to import the required modules:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;pandas&lt;/code&gt; - for managing data in the form of &lt;code&gt;dataframes&lt;/code&gt; (tabulated)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;numpy&lt;/code&gt; - the numerical module&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;matplotlib&lt;/code&gt; - for plotting charts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;%matplotlib inline&lt;/code&gt; command will be discussed in a few moments, for now let us just accept its necessity.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;%matplotlib inline&lt;/code&gt; command will be discussed in a few moments, for now let us just accept it.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1084,7 +1083,7 @@ Also, the Notebook is capable of rendering text formatted in the Markdown syntax
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;The dataset we'll be dealing with was put together by the user GregorySmith in the Kaggle community, available at this link: &lt;a href="https://www.kaggle.com/gregorut/videogamesales"&gt;https://www.kaggle.com/gregorut/videogamesales&lt;/a&gt;. It contains videogame sales data.&lt;/p&gt;
+&lt;p&gt;The dataset we'll be dealing with has some data on videogame sales across the globe and it was put together by the user GregorySmith in the Kaggle community, available at this link: &lt;a href="https://www.kaggle.com/gregorut/videogamesales"&gt;https://www.kaggle.com/gregorut/videogamesales&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First we load the dataset into a dataframe with the pandas function &lt;code&gt;read_csv&lt;/code&gt;, by passing the file location as its argument, and then take a look at the data. The code below assumes the dataset is in the current directory and uses the &lt;code&gt;os.getcwd()&lt;/code&gt; method to build the path.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;dropna()&lt;/code&gt; method is called to rid the dataset of eventual missing data (&lt;code&gt;NaN&lt;/code&gt;, &lt;code&gt;NA&lt;/code&gt;, &lt;code&gt;NaT&lt;/code&gt;, etc.) and the &lt;code&gt;head()&lt;/code&gt; method displays the first 5 rows&lt;/p&gt;
 &lt;/div&gt;
@@ -3183,8 +3182,7 @@ EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Nothing, maybe I mistyped? Let's check it manually, how hard can it be?&lt;/p&gt;
-&lt;p&gt;Different approach: let's see how many games whose title begin with "R" there are&lt;/p&gt;
+&lt;p&gt;Nothing, maybe I mistyped? Let's check it manually, how hard can it be? Let's see how many games whose title begin with "R" there are&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3215,7 +3213,7 @@ EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;701 is quite a lot.&lt;/p&gt;
 &lt;p&gt;Time to work smart, not hard.&lt;/p&gt;
-&lt;p&gt;In one word &gt;&gt; &lt;code&gt;regular expressions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In one word &gt;&gt; &lt;code&gt;regular[\s]expressions&lt;/code&gt; (recursive joke)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

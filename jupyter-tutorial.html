@@ -1050,7 +1050,8 @@ h6:hover .anchor-link {
 <h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>According to <a href="https://jupyter.org/">https://jupyter.org/</a></p>
 <blockquote><p>The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.</p>
 </blockquote>
-<p>Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go on (in real time) [review]</p>
+<p>Jupyter is an environment for you to write code on your language of choice, evaluating its output as you go.</p>
+<p>Also, Jupyter is <em>the</em> best IDE(ish) there is, in my humble and final opinion.</p>
 </div>
 </div>
 </div>
@@ -1059,12 +1060,10 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Installing">Installing<a class="anchor-link" href="#Installing">¶</a></h1><p><in order to start using the jupyter notebook we first need to install the python language, what can be done either via the &lt;a href="https://www.python.org/downloads/">python source</a> or the <a href="https://www.continuum.io/downloads">anaconda distribution</a>.</p>
-<p>The anaconda distribution is a the leading python platform for data science, including the most used modules (<code>pandas</code>,<code>matplotlib</code>,<code>numpy</code>)></p>
-<p>Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.</p>
+<h1 id="Installing">Installing<a class="anchor-link" href="#Installing">¶</a></h1><p>Even though Jupyter supports many programming languages, it requires python to be installed. The easiest way is with the anaconda package, the most popular python distribution, which comes with Jupyter Notebook and some of the most used python modules.</p>
 <print screen="">
-<p>You can download the anaconda package for your desired OS in the following link: <a href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a> and then proceed with the installation.
-To launch the Jupyter Notebook server, either open a command line and type <code>jupyter notebook</code> or run the Jupyter application.</p>
+<p>You can download the anaconda package for your desired OS in the following link: <a href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a> and then proceed with the installation.</p>
+<p>To launch the Jupyter Notebook server, either open a command line and type <code>jupyter notebook</code> or run the Jupyter application.</p>
 <image command="" line="">
 </image></print></div>
 </div>
@@ -1074,15 +1073,15 @@ To launch the Jupyter Notebook server, either open a command line and type <code
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Creating-a-notebook">Creating a notebook<a class="anchor-link" href="#Creating-a-notebook">¶</a></h1><p>Once you’ve started the notebook server, it will open the Notebook Dashboard in the system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory.</p>
+<h1 id="Creating-a-notebook">Creating a notebook<a class="anchor-link" href="#Creating-a-notebook">¶</a></h1><p>Once you’ve started the notebook server, it will open the Notebook Dashboard in your system’s default navigator. The dashboard is the Jupyter user interface and it shows a list of files, notebooks and subfolders in the current directory</p>
 <p><img alt="Dashboard" src="https://image.ibb.co/mw68tv/dashboard.png" title="Dashboard" /></p>
-<p>In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel</p>
+<p>In order to create your first notebook, you need to click on the “New” button in the top right corner and then select a kernel (in our case Python 3)</p>
 <p><img alt="New notebook creation" src="https://image.ibb.co/gyQ1Dv/new_notebook.png" title="New notebook creation" /></p>
 <p>The notebook is organized by cells where you can write code or text</p>
 <p><img alt="Cell" src="https://image.ibb.co/nt3Gfa/cell.png" title="Cell" /></p>
 <p>After you write some code in the input cell <code>In [ ]</code>, you can execute it by pressing <code>Shift + Enter</code> or clicking the “Run cell” button in the toolbar; the output will be shown in the output cell <code>Out [ ]</code></p>
 <p><img alt="Cell code output" src="https://image.ibb.co/h7k40a/in_out.png" title="Cell code and its output" /></p>
-<p>There are other buttons on the toolbar, here’s a brief list of their functionalities<add icons="">:</add></p>
+<p>There are other buttons on the toolbar, here’s a brief list, given the names, their functionalities are pretty straighforward (icons are missing):</p>
 <ul>
 <li>Save and Checkpoint</li>
 <li>Insert cell below</li>
@@ -1099,8 +1098,8 @@ To launch the Jupyter Notebook server, either open a command line and type <code
 </ul>
 <p>You can find another pretty good guide in the <a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html">Jupyter docs</a>.</p>
 <hr>
-<p>One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.
-Also, the Notebook is capable of rendering text formatted in the Markdown syntax, the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought. This topic is discussed in more depth in <a href="https://www.dataquest.io/blog/data-science-portfolio-project/">this blog post</a>.</p>
+<p>One of the Jupyter Notebook’s greatest advantages is the fact that you can easily write some code and check its output right away, making it very fitting to data exploration where you need to query a dataset, often applying statistical functions and plotting charts to attain insights or verify impressions.</p>
+<p>Also, the Notebook is capable of rendering text formatted in the [Markdown syntax][markdowns], the Markdown cell type, enabling you to construct a narrative within your notebook, conducting the reader through your flow of thought $-$ this topic is discussed in more depth in <a href="https://www.dataquest.io/blog/data-science-portfolio-project/">this blog post</a>.</p>
 <p><img alt="Markdown" src="https://image.ibb.co/eVD23v/markdown.png" title="Markdown cell" /></p>
 <p><links></links></p>
 <p><images></images></p>
@@ -1112,14 +1111,14 @@ Also, the Notebook is capable of rendering text formatted in the Markdown syntax
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-notebook-and-data-analysis">The notebook and data analysis<a class="anchor-link" href="#The-notebook-and-data-analysis">¶</a></h1><p>To exemplify the advantages mentioned above, we will perform a pretty basic data analysis on a dataset</p>
+<h1 id="The-notebook-and-data-analysis">The notebook and data analysis<a class="anchor-link" href="#The-notebook-and-data-analysis">¶</a></h1><p>To exemplify the advantages mentioned above, we will perform a pretty basic analysis on a dataset.</p>
 <p>The first step is to import the required modules:</p>
 <ul>
 <li><code>pandas</code> - for managing data in the form of <code>dataframes</code> (tabulated)</li>
 <li><code>numpy</code> - the numerical module</li>
 <li><code>matplotlib</code> - for plotting charts</li>
 </ul>
-<p>The <code>%matplotlib inline</code> command will be discussed in a few moments, for now let us just accept its necessity.</p>
+<p>The <code>%matplotlib inline</code> command will be discussed in a few moments, for now let us just accept it.</p>
 </div>
 </div>
 </div>
@@ -1142,7 +1141,7 @@ Also, the Notebook is capable of rendering text formatted in the Markdown syntax
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The dataset we'll be dealing with was put together by the user GregorySmith in the Kaggle community, available at this link: <a href="https://www.kaggle.com/gregorut/videogamesales">https://www.kaggle.com/gregorut/videogamesales</a>. It contains videogame sales data.</p>
+<p>The dataset we'll be dealing with has some data on videogame sales across the globe and it was put together by the user GregorySmith in the Kaggle community, available at this link: <a href="https://www.kaggle.com/gregorut/videogamesales">https://www.kaggle.com/gregorut/videogamesales</a>.</p>
 <p>First we load the dataset into a dataframe with the pandas function <code>read_csv</code>, by passing the file location as its argument, and then take a look at the data. The code below assumes the dataset is in the current directory and uses the <code>os.getcwd()</code> method to build the path.</p>
 <p>The <code>dropna()</code> method is called to rid the dataset of eventual missing data (<code>NaN</code>, <code>NA</code>, <code>NaT</code>, etc.) and the <code>head()</code> method displays the first 5 rows</p>
 </div>
@@ -3241,8 +3240,7 @@ EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Nothing, maybe I mistyped? Let's check it manually, how hard can it be?</p>
-<p>Different approach: let's see how many games whose title begin with "R" there are</p>
+<p>Nothing, maybe I mistyped? Let's check it manually, how hard can it be? Let's see how many games whose title begin with "R" there are</p>
 </div>
 </div>
 </div>
@@ -3273,7 +3271,7 @@ EFQtEQgFQRAEQVC1RCAUBEEQBEHVEoFQEARBEARVSwRCQRAEQRBULREIBUEQBEFQtUQgFARBEARB
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>701 is quite a lot.</p>
 <p>Time to work smart, not hard.</p>
-<p>In one word >> <code>regular expressions</code></p>
+<p>In one word >> <code>regular[\s]expressions</code> (recursive joke)</p>
 </div>
 </div>
 </div>
